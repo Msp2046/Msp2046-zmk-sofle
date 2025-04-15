@@ -2,7 +2,7 @@ layout: {zmk_keyboard: eyelash_sofle}
 layers:
   LAYER0:
   - A
-  - {t: '1', s: '!'}
+  - A
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: '4', s: $}

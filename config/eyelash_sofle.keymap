@@ -40,28 +40,26 @@
 
         Layer-0 {
             bindings = <
-&lt 5 TAB   &kp N1       &kp N2     &kp N3    &kp N4              &kp N5         &trans  &kp N6    &kp N7           &kp N8  &kp N9      &kp N0     &kp BACKSPACE
-&kp LSHFT   &kp Q        &kp W      &kp E     &kp R               &kp T          &trans  &kp Y     &kp U            &kp I   &kp O       &kp P      &kp ENTER
-&lt 5 CAPS  &kp A        &kp S      &kp D     &kp F               &kp G          &trans  &kp H     &kp J            &kp K   &kp L       &kp FSLH   &kp RSHFT
-&lt 5 ESC   &mo 6        &kp Z      &kp X     &kp C               &kp V          &trans  &kp B     &kp N            &kp M   &kp DELETE  &kp MINUS  &kp EQUAL
-&trans      &lt 5 LCTRL  &kp LSHFT  &kp LALT  &mt LEFT_ALT SPACE  &lt 1 LA(V)    &trans  &kp LEFT  &kp RIGHT_ARROW  &mo 2   &kp COMMA   &kp DOT
+&lt 7 ESC  &kp N1  &kp N2     &kp N3    &kp N4     &kp N5         &trans  &kp N6    &kp N7           &kp N8  &kp N9      &kp N0     &kp BACKSPACE
+&kp LSHFT  &kp Q   &kp W      &kp E     &kp R      &kp T          &trans  &kp Y     &kp U            &kp I   &kp O       &kp P      &kp ENTER
+&kp CAPS   &kp A   &kp S      &kp D     &kp F      &kp G          &trans  &kp H     &kp J            &kp K   &kp L       &kp FSLH   &kp RSHFT
+&kp LCTRL  &mo 6   &kp Z      &kp X     &kp C      &kp V          &trans  &kp B     &kp N            &kp M   &kp DELETE  &kp MINUS  &kp EQUAL
+&trans     &mo 5   &kp LSHFT  &kp LALT  &kp SPACE  &lt 1 LA(V)    &trans  &kp LEFT  &kp RIGHT_ARROW  &mo 2   &kp COMMA   &kp DOT
             >;
 
-            sensor-bindings = <&scroll_encoder>;
             display-name = "LAYER0";
         };
 
         layer_1 {
             bindings = <
-&trans  &kp N0          &kp N9          &kp N8           &kp N7  &kp N6    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp MINUS       &msc SCRL_UP    &kp EQUAL        &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT_ARROW  &msc SCRL_DOWN  &kp RIGHT_ARROW  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans          &trans           &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans          &trans           &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp ENTER  &kp N0  &kp N9          &kp N8  &kp N7                &kp N6                   &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans  &msc SCRL_UP    &kp F1  &kp F5                &kp P                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans  &msc SCRL_DOWN  &kp F3  &kp F10               &kp H                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans  &trans          &trans  &mt MINUS LEFT_ARROW  &mt EQUAL RIGHT_ARROW    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans  &trans          &trans  &trans                &trans                   &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             display-name = "layer1";
-            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_2 {
@@ -72,8 +70,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
-
-            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_3 {
@@ -98,11 +94,11 @@
 
         layer_5 {
             bindings = <
-&trans  &kp A   &trans  &trans     &kp MINUS  &kp EQUAL    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &kp LBKT   &kp RBKT     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp SEMI   &kp APOS   &kp BSLH     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp COMMA  &kp DOT    &kp FSLH     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&kp N1             &kp N2             &kp N3             &kp N4             &kp N5             &kp N6               &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LS(LA(LC(Q)))  &kp LA(LC(LS(W)))  &kp LA(LS(LC(E)))  &kp LG(E)          &kp LS(LA(LC(R)))  &kp T                &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LA(LS(LC(A)))  &kp LC(LA(LS(S)))  &kp LA(LS(LC(D)))  &kp LG(D)          &kp LC(LA(LS(F)))  &kp LC(LS(LA(G)))    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LC(LA(LS(Z)))  &kp LS(LA(LC(X)))  &kp LS(LA(LC(C)))  &kp LC(LA(LS(V)))  &kp LC(LA(LS(B)))  &kp LC(LA(LS(N)))    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans             &trans             &trans             &trans             &trans             &trans               &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -115,8 +111,16 @@
 &trans  &trans  &trans  &trans  &kp N0     &kp KP_DOT    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &kp ENTER  &trans        &trans  &trans  &trans  &trans  &trans  &trans
             >;
+        };
 
-            sensor-bindings = <&scroll_encoder>;
+        layer_7 {
+            bindings = <
+&trans  &kp F11  &kp F12  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans   &trans   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans   &trans   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans   &trans   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans   &trans   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
         };
     };
 };

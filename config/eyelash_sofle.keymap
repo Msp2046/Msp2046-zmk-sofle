@@ -52,11 +52,11 @@
 
         layer_1 {
             bindings = <
-&kp ENTER  &kp N0  &kp N9  &kp N8     &kp N7          &kp N6       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp F10    &kp F5  &kp F3  &kp F1     &kp P           &kp H        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans  &trans  &kp MINUS  &msc SCRL_DOWN  &kp EQUAL    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans  &trans  &kp LEFT   &kp BSLH        &kp RIGHT    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans  &trans  &trans     &trans          &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&kp ENTER  &kp N0     &kp N9         &kp N8     &kp N7          &kp N6       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp F10    &kp F5     &kp F3         &kp F1     &kp P           &kp H        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LC(O)  &kp LC(N)  &kp LC(LS(S))  &kp MINUS  &msc SCRL_DOWN  &kp EQUAL    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LC(M)  &trans     &trans         &kp LEFT   &kp BSLH        &kp RIGHT    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans     &trans         &trans     &trans          &trans       &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             display-name = "layer1";

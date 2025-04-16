@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   LAYER0:
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:keyboard-esc$$'}
+  - $$mdi:keyboard-esc$$
   - {t: '1', h: '!', s: '!'}
   - {t: '2', h: '@', s: '@'}
   - {t: '3', h: '#', s: '#'}
@@ -14,7 +14,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
   - Q
   - W
   - E

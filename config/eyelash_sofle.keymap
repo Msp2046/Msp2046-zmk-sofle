@@ -134,4 +134,4 @@
     };
 };
 
-&mt { tapping-term-ms = < 125>; };
+&mt { tapping-term-ms = < 165>; };

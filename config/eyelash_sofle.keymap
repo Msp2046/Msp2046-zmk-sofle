@@ -135,4 +135,4 @@
     };
 };
 
-&mt { tapping-term-ms = < 100>; };
+&mt { tapping-term-ms = < 150>; };

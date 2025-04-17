@@ -34,6 +34,7 @@
 
     behaviors {
     };
+&mt { tapping-term-ms = < 100>; };
 
     keymap {
         compatible = "zmk,keymap";
@@ -49,6 +50,7 @@
 
             display-name = "LAYER0";
         };
+
 
         layer_1 {
             bindings = <
@@ -134,4 +136,4 @@
     };
 };
 
-&mt { tapping-term-ms = <50>; };
+

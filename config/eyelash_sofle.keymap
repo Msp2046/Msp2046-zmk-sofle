@@ -96,7 +96,7 @@
             bindings = <
 &kp N1             &kp N2             &kp N3             &kp N4             &kp N5             &kp N6               &trans  &trans  &trans   &trans     &trans  &trans  &trans
 &kp LS(LA(LC(Q)))  &kp LA(LC(LS(W)))  &kp LA(LS(LC(E)))  &kp LG(E)          &kp LS(LA(LC(R)))  &kp LA(LC(LS(T)))    &trans  &trans  &kp DOT  &kp COMMA  &trans  &trans  &trans
-&kp LA(LS(LC(A)))  &kp LC(LA(LS(S)))  &kp LA(LS(LC(D)))  &kp LG(D)          &kp LC(LA(LS(F)))  &kp LC(LS(LA(G)))    &trans  &trans  &trans   &trans     &trans  &trans  &trans
+&kp LA(LS(LC(A)))  &kp LC(LA(LS(S)))  &kp LA(LS(LC(D)))  &kp LG(D)          &kp LC(LA(LS(F)))  &kp LG(L)            &trans  &trans  &trans   &trans     &trans  &trans  &trans
 &kp LC(LA(LS(Z)))  &kp LS(LA(LC(X)))  &kp LS(LA(LC(C)))  &kp LC(LA(LS(V)))  &kp LC(LA(LS(B)))  &kp LC(LA(LS(N)))    &trans  &trans  &trans   &trans     &trans  &trans  &trans
 &trans             &trans             &trans             &trans             &trans             &trans               &trans  &trans  &trans   &trans     &trans  &trans
             >;
@@ -107,11 +107,11 @@
         layer_6 {
             display-name = "layer_6_Yingpin";
             bindings = <
-&kp LS(LC(LA(LG(Q))))  &kp LA(LC(LS(LG(W))))  &kp LA(LS(LC(LG(E))))  &kp LA(LS(LC(LG(R))))  &kp LC(LA(LS(LG(T))))   &kp LC(LA(LS(LG(Y))))     &trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans  &trans
-&kp LS(LA(LC(LG(U))))  &kp LS(LC(LA(LG(I))))  &kp LC(LA(LS(LG(O))))  &kp LA(LS(LC(LG(P))))  &kp LS(LA(LC(LG(A))))   &kp LG(LA(LS(LC(S))))     &trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans  &trans
-&kp LS(LC(LA(LG(D))))  &kp LA(LC(LS(LG(F))))  &kp LS(LG(LA(LC(G))))  &kp LS(LA(LG(LC(H))))  &kp LC(LS(LA(LG(J))))   &kp LS(LA(LC(LG(K))))     &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans
-&kp LA(LC(LG(LS(L))))  &trans                 &kp LS(LA(LC(LG(Z))))  &kp LS(LA(LC(LG(X))))  &kp LA(LS(LC(LG(C))))   &kp LA(LS(LC(LG(V))))     &trans  &trans  &trans   &trans   &trans   &trans  &trans
-&trans                 &kp LS(LA(LC(LG(B))))  &kp LA(LC(LG(LS(N))))  &kp LS(LA(LC(LG(M))))  &kp LS(LA(LC(LG(N1))))  &kp LC(LA(LS(LG(N2))))    &trans  &trans  &trans   &trans   &trans   &trans
+&trans  &trans  &trans    &trans      &trans  &trans    &trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans  &trans
+&trans  &trans  &trans    &trans      &trans  &trans    &trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans  &trans
+&trans  &trans  &trans    &trans      &trans  &trans    &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans
+&trans  &trans  &trans    &trans      &trans  &trans    &trans  &trans  &trans   &trans   &trans   &trans  &trans
+&trans  &trans  &kp C_PP  &kp C_NEXT  &trans  &trans    &trans  &trans  &trans   &trans   &trans   &trans
             >;
         };
 

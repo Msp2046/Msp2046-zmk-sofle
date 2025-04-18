@@ -82,7 +82,7 @@ layers:
   - F1
   - F3
   - {t: '-', s: _}
-  - F10
+  - $$mdi:arrow-up-bold$$
   - {t: '=', s: +}
   - P
   - {t: '$$mdi:transfer$$', type: trans}
@@ -92,10 +92,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+N
-  - Ctl+O
+  - F5
+  - F10
   - $$mdi:arrow-left-bold$$
-  - $$mdi:pan-down$$
+  - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - H
   - {t: '$$mdi:transfer$$', type: trans}
@@ -105,7 +105,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+S
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - I
   - Ctl+M

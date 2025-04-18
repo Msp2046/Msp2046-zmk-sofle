@@ -41,7 +41,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
-  - layer_6
+  - layer_6_Yingpin
   - Z
   - X
   - C
@@ -54,7 +54,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '5'
+  - Maya
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
@@ -62,7 +62,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - layer1
+  - Maya
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   layer1:
@@ -73,40 +73,40 @@ layers:
   - {t: '7', s: '&'}
   - {t: '6', s: ^}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: ., s: '>'}
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F3
   - {t: '-', s: _}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F10
   - {t: '=', s: +}
   - P
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: ., s: '>'}
-  - {t: ',', s: <}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+N
+  - Ctl+O
   - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-down$$
   - $$mdi:arrow-right-bold$$
   - H
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+S
+  - Ctl+M
   - I
   - {t: '$$mdi:transfer$$', type: trans}
   - O
@@ -127,7 +127,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '2':
@@ -325,7 +325,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '5':
+  Maya:
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -334,22 +334,22 @@ layers:
   - {t: '6', s: ^}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '8', s: '*'}
-  - {t: '0', s: )}
-  - {t: ., s: '>'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Meh+Q
   - Meh+W
   - Meh+E
   - Gui+E
   - Meh+R
-  - T
+  - Meh+T
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
+  - {t: ., s: '>'}
+  - {t: ',', s: <}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Meh+A
@@ -360,9 +360,9 @@ layers:
   - Meh+G
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Meh+Z
@@ -387,51 +387,55 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  layer_6_Yingpin:
+  - Hyper+Q
+  - Hyper+W
+  - Hyper+E
+  - Hyper+R
+  - Hyper+T
+  - Hyper+Y
   - {t: '$$mdi:transfer$$', type: trans}
-  layer_6:
-  - A
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - Hyper+U
+  - Hyper+I
+  - Hyper+O
+  - Hyper+P
+  - Hyper+A
+  - Hyper+S
+  - {t: '$$mdi:transfer$$', type: trans}
+  - F5
+  - F6
+  - F7
+  - F8
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - Hyper+D
+  - Hyper+F
+  - Hyper+G
+  - Hyper+H
+  - Hyper+J
+  - Hyper+K
+  - {t: '$$mdi:transfer$$', type: trans}
+  - F9
+  - F10
+  - F11
+  - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Hyper+L
   - {type: held}
+  - Hyper+Z
+  - Hyper+X
+  - Hyper+C
+  - Hyper+V
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -440,15 +444,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - AltGr+Ctl+Sft+A
-  - AltGr+Ctl+B
-  - A
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Hyper+B
+  - Hyper+N
+  - Hyper+M
+  - {t: Hyper+1, s: Hyper+!}
+  - {t: Hyper+2, s: Hyper+@}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -457,8 +457,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   '7':
   - {t: '$$mdi:transfer$$', type: trans}
-  - F11
-  - F12
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

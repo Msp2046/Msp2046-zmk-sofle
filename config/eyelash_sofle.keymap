@@ -44,7 +44,7 @@
 &mt LSHFT TAB  &kp Q        &kp W           &kp E         &kp R              &kp T                 &trans  &kp H   &kp J   &kp K   &kp L   &trans  &kp ENTER
 &kp CAPS       &kp A        &kp S           &kp D         &kp F              &kp G                 &trans  &kp B   &kp N   &kp M   &trans  &trans  &trans
 &kp LCTRL      &mo 6        &kp Z           &kp X         &kp C              &kp V                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans         &mo 5        &kp LSHFT       &kp LALT      &kp SPACE          &lt 1 LA(V)           &trans  &trans  &trans  &mo 1   &trans  &trans
+&trans         &mo 5        &kp LSHFT       &kp LALT      &kp SPACE          &lt 1 LA(V)           &trans  &trans  &trans  &mo 5   &trans  &trans
             >;
 
             display-name = "LAYER0";
@@ -52,11 +52,11 @@
 
         layer_1 {
             bindings = <
-&kp ENTER  &kp N0    &kp N9     &kp N8    &kp N7     &kp N6      &trans  &trans  &trans   &trans     &trans  &trans  &trans
-&kp F1     &kp F3    &kp MINUS  &trans    &kp EQUAL  &kp P       &trans  &trans  &kp DOT  &kp COMMA  &trans  &trans  &trans
-&trans     &trans    &kp LEFT   &trans    &kp RIGHT  &kp H       &trans  &trans  &trans   &trans     &trans  &trans  &trans
-&trans     &trans    &kp I      &trans    &kp O      &kp BSLH    &trans  &trans  &trans   &trans     &trans  &trans  &trans
-&trans     &kp LBKT  &trans     &kp RBKT  &kp DEL    &trans      &trans  &trans  &trans   &trans     &trans  &trans
+&kp ENTER  &kp N0     &kp N9     &kp N8          &kp N7     &kp N6      &trans  &kp N7  &kp N8  &kp N9  &kp N0  &kp DOT  &trans
+&kp F1     &kp F3     &kp MINUS  &kp F10         &kp EQUAL  &kp P       &trans  &kp N4  &kp N5  &kp N6  &trans  &trans   &trans
+&kp LC(N)  &kp LC(O)  &kp LEFT   &msc SCRL_DOWN  &kp RIGHT  &kp H       &trans  &kp N1  &kp N2  &kp N3  &trans  &trans   &trans
+&kp LC(S)  &kp LC(M)  &kp I      &trans          &kp O      &kp BSLH    &trans  &trans  &trans  &trans  &trans  &trans   &trans
+&trans     &kp LBKT   &trans     &kp RBKT        &kp DEL    &trans      &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             display-name = "layer1";
@@ -94,32 +94,34 @@
 
         layer_5 {
             bindings = <
-&kp N1             &kp N2             &kp N3             &kp N4             &kp N5             &kp N6               &trans  &trans  &kp N7  &kp N8  &kp N8  &kp N0  &kp DOT
-&kp LS(LA(LC(Q)))  &kp LA(LC(LS(W)))  &kp LA(LS(LC(E)))  &kp LG(E)          &kp LS(LA(LC(R)))  &kp T                &trans  &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
-&kp LA(LS(LC(A)))  &kp LC(LA(LS(S)))  &kp LA(LS(LC(D)))  &kp LG(D)          &kp LC(LA(LS(F)))  &kp LC(LS(LA(G)))    &trans  &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
-&kp LC(LA(LS(Z)))  &kp LS(LA(LC(X)))  &kp LS(LA(LC(C)))  &kp LC(LA(LS(V)))  &kp LC(LA(LS(B)))  &kp LC(LA(LS(N)))    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans             &trans             &trans             &trans             &trans             &trans               &trans  &trans  &trans  &trans  &trans  &trans
+&kp N1             &kp N2             &kp N3             &kp N4             &kp N5             &kp N6               &trans  &trans  &trans   &trans     &trans  &trans  &trans
+&kp LS(LA(LC(Q)))  &kp LA(LC(LS(W)))  &kp LA(LS(LC(E)))  &kp LG(E)          &kp LS(LA(LC(R)))  &kp LA(LC(LS(T)))    &trans  &trans  &kp DOT  &kp COMMA  &trans  &trans  &trans
+&kp LA(LS(LC(A)))  &kp LC(LA(LS(S)))  &kp LA(LS(LC(D)))  &kp LG(D)          &kp LC(LA(LS(F)))  &kp LC(LS(LA(G)))    &trans  &trans  &trans   &trans     &trans  &trans  &trans
+&kp LC(LA(LS(Z)))  &kp LS(LA(LC(X)))  &kp LS(LA(LC(C)))  &kp LC(LA(LS(V)))  &kp LC(LA(LS(B)))  &kp LC(LA(LS(N)))    &trans  &trans  &trans   &trans     &trans  &trans  &trans
+&trans             &trans             &trans             &trans             &trans             &trans               &trans  &trans  &trans   &trans     &trans  &trans
             >;
+
+            label = "Maya";
         };
 
         layer_6 {
-            display-name = "layer_6";
+            display-name = "layer_6_Yingpin";
             bindings = <
-&kp A   &trans             &trans         &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans             &trans         &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans             &trans         &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans             &trans         &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp RA(RC(RS(A)))  &kp RA(RC(B))  &kp A   &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp LS(LC(LA(LG(Q))))  &kp LA(LC(LS(LG(W))))  &kp LA(LS(LC(LG(E))))  &kp LA(LS(LC(LG(R))))  &kp LC(LA(LS(LG(T))))   &kp LC(LA(LS(LG(Y))))     &trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans  &trans
+&kp LS(LA(LC(LG(U))))  &kp LS(LC(LA(LG(I))))  &kp LC(LA(LS(LG(O))))  &kp LA(LS(LC(LG(P))))  &kp LS(LA(LC(LG(A))))   &kp LG(LA(LS(LC(S))))     &trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans  &trans
+&kp LS(LC(LA(LG(D))))  &kp LA(LC(LS(LG(F))))  &kp LS(LG(LA(LC(G))))  &kp LS(LA(LG(LC(H))))  &kp LC(LS(LA(LG(J))))   &kp LS(LA(LC(LG(K))))     &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans
+&kp LA(LC(LG(LS(L))))  &trans                 &kp LS(LA(LC(LG(Z))))  &kp LS(LA(LC(LG(X))))  &kp LA(LS(LC(LG(C))))   &kp LA(LS(LC(LG(V))))     &trans  &trans  &trans   &trans   &trans   &trans  &trans
+&trans                 &kp LS(LA(LC(LG(B))))  &kp LA(LC(LG(LS(N))))  &kp LS(LA(LC(LG(M))))  &kp LS(LA(LC(LG(N1))))  &kp LC(LA(LS(LG(N2))))    &trans  &trans  &trans   &trans   &trans   &trans
             >;
         };
 
         layer_7 {
             bindings = <
-&trans  &kp F11  &kp F12  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans   &trans   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans   &trans   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans   &trans   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans   &trans   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };

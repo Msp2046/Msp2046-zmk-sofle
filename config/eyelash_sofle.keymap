@@ -136,9 +136,6 @@
     };
 };
 
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
-
 / {
     behaviors {
         &kp LA(V): tap_dance_0 {

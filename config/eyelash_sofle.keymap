@@ -145,14 +145,3 @@
             bindings = <&kp LALT>, <&kp LALT>;
         };
     };
-
-    keymap {
-        compatible = "zmk,keymap";
-
-        default_layer {
-            bindings = <
-                 &kp LA(V)
-            >;
-        };
-    };
-};

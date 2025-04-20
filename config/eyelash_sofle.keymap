@@ -136,11 +136,12 @@
     };
 };
 
+&sl {
+    release-after-ms = <6000>;
+};
+
 / {
-    behaviors: tap_dance_0 {
-        compatible = "zmk,behavior-tap-dance";
-        #binding-cells = <0>;
-        tapping-term-ms = <150>;
-        bindings = <&kp LALT>, <&kp LALT>;
+    keymap {
+        ...
     };
 };

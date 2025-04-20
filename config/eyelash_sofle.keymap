@@ -52,11 +52,11 @@
 
         layer_1 {
             bindings = <
-&kp ENTER  &kp N0    &kp N9     &kp N8     &kp N7     &kp N6      &trans  &trans  &trans  &trans  &trans  &trans   &trans
-&kp BSPC   &kp DEL   &kp MINUS  &kp UP     &kp EQUAL  &kp P       &trans  &kp N7  &kp N8  &kp N9  &kp N0  &kp DOT  &trans
-&kp F1     &kp F3    &kp LEFT   &kp DOWN   &kp RIGHT  &kp H       &trans  &kp N4  &kp N5  &kp N6  &trans  &trans   &trans
-&kp F5     &kp F10   &kp I      &kp LC(M)  &kp O      &kp BSLH    &trans  &kp N1  &kp N2  &kp N3  &trans  &trans   &trans
-&trans     &kp LBKT  &kp LC(E)  &kp RBKT   &trans     &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp ENTER  &kp N0    &kp N9     &kp N8     &kp N7     &kp N6      &trans  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp SEMI  &kp APOS
+&kp BSPC   &kp DEL   &kp MINUS  &kp UP     &kp EQUAL  &kp P       &trans  &kp N7     &kp N8     &kp N9    &kp N9    &kp N0    &reset
+&kp F1     &kp F3    &kp LEFT   &kp DOWN   &kp RIGHT  &kp H       &trans  &kp N4     &kp N5     &kp N6    &trans    &trans    &trans
+&kp F5     &kp F10   &kp I      &kp LC(M)  &kp O      &kp BSLH    &trans  &kp N1     &kp N2     &kp N3    &trans    &trans    &trans
+&trans     &kp LBKT  &kp LC(E)  &kp RBKT   &trans     &trans      &trans  &trans     &trans     &trans    &trans    &trans
             >;
 
             display-name = "layer1";
@@ -94,11 +94,11 @@
 
         layer_5 {
             bindings = <
-&kp N1             &kp N2             &kp N3             &kp N4             &kp N5             &kp N6               &trans  &kp F1  &kp F2   &kp F3     &kp F4   &kp F5   &kp F6
-&kp LS(LA(LC(Q)))  &kp LA(LC(LS(W)))  &kp LA(LS(LC(E)))  &kp LG(E)          &kp LS(LA(LC(R)))  &kp LA(LC(LS(T)))    &trans  &kp F7  &kp F8   &kp F9     &kp F10  &kp F11  &kp F12
-&kp LA(LS(LC(A)))  &kp LC(LA(LS(S)))  &kp LA(LS(LC(D)))  &kp LG(D)          &kp LC(LA(LS(F)))  &kp LG(L)            &trans  &trans  &kp DOT  &kp COMMA  &trans   &trans   &trans
-&kp LC(LA(LS(Z)))  &kp LS(LA(LC(X)))  &kp LS(LA(LC(C)))  &kp LC(LA(LS(V)))  &kp LC(LA(LS(B)))  &kp LC(LA(LS(N)))    &trans  &trans  &trans   &trans     &trans   &trans   &trans
-&trans             &trans             &trans             &trans             &trans             &trans               &trans  &trans  &trans   &trans     &trans   &trans
+&kp N1             &kp N2             &kp N3             &kp N4             &kp N5             &kp N6               &trans  &trans  &trans   &trans     &trans  &trans  &trans
+&kp LS(LA(LC(Q)))  &kp LA(LC(LS(W)))  &kp LA(LS(LC(E)))  &kp LG(E)          &kp LS(LA(LC(R)))  &kp LA(LC(LS(T)))    &trans  &trans  &trans   &trans     &trans  &trans  &trans
+&kp LA(LS(LC(A)))  &kp LC(LA(LS(S)))  &kp LA(LS(LC(D)))  &kp LG(D)          &kp LC(LA(LS(F)))  &kp LG(L)            &trans  &trans  &kp DOT  &kp COMMA  &trans  &trans  &trans
+&kp LC(LA(LS(Z)))  &kp LS(LA(LC(X)))  &kp LS(LA(LC(C)))  &kp LC(LA(LS(V)))  &kp LC(LA(LS(B)))  &kp LC(LA(LS(N)))    &trans  &trans  &trans   &trans     &trans  &trans  &trans
+&trans             &trans             &trans             &trans             &trans             &trans               &trans  &trans  &trans   &trans     &trans  &trans
             >;
 
             label = "Maya";
@@ -107,11 +107,11 @@
         layer_6 {
             display-name = "layer_6_Yingpin";
             bindings = <
-&trans  &trans  &trans    &trans      &trans  &trans    &trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans  &trans
-&trans  &trans  &trans    &trans      &trans  &trans    &trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans  &trans
-&trans  &trans  &trans    &trans      &trans  &trans    &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans
-&trans  &kp A   &kp B     &trans      &trans  &trans    &trans  &trans  &trans   &trans   &trans   &trans  &trans
-&trans  &trans  &kp C_PP  &kp C_NEXT  &trans  &trans    &trans  &trans  &trans   &trans   &trans   &trans
+&trans  &trans  &trans    &trans      &trans  &trans    &trans  &trans  &trans  &trans  &trans   &trans   &trans
+&trans  &trans  &trans    &trans      &trans  &trans    &trans  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&trans  &trans  &trans    &trans      &trans  &trans    &trans  &kp F4  &kp F5  &kp F6  &trans   &trans   &trans
+&trans  &kp A   &kp B     &trans      &trans  &trans    &trans  &kp F1  &kp F2  &kp F3  &trans   &trans   &trans
+&trans  &trans  &kp C_PP  &kp C_NEXT  &trans  &trans    &trans  &trans  &trans  &trans  &trans   &trans
             >;
         };
 

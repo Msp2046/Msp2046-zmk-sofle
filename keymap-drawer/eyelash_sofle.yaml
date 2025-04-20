@@ -91,7 +91,7 @@ layers:
   - {t: '9', s: (}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - '&reset'
+  - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F3
   - $$mdi:arrow-left-bold$$
@@ -125,7 +125,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

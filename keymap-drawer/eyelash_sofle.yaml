@@ -80,9 +80,9 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:backspace-reverse-outline$$
-  - {t: '-', s: _}
+  - {t: ., s: '>'}
   - $$mdi:arrow-up-bold$$
+  - {t: '-', s: _}
   - {t: '=', s: +}
   - P
   - {t: '$$mdi:transfer$$', type: trans}
@@ -92,11 +92,11 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
-  - F1
-  - F3
+  - F10
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
+  - F1
   - H
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '4', s: $}
@@ -105,8 +105,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - F3
   - F5
-  - F10
   - I
   - Ctl+M
   - O

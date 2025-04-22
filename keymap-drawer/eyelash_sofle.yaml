@@ -79,7 +79,7 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: ., s: '>'}
   - $$mdi:arrow-up-bold$$
   - {t: '-', s: _}
@@ -92,11 +92,11 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: \, s: '|'}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - F1
+  - {t: F1, h: F3}
   - H
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -105,8 +105,8 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - F3
-  - F5
+  - Ctl+N
+  - {t: '$$mdi:transfer$$', type: trans}
   - I
   - Ctl+M
   - O

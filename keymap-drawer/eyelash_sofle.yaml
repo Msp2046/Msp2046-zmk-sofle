@@ -391,7 +391,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   layer_6_Yingpin:
-  - AltGr+Ctl+Q
+  - Ctl+Sft+AltGr+Gui+Q
   - W
   - E
   - R

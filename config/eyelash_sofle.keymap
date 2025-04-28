@@ -54,11 +54,11 @@
 
         layer_1 {
             bindings = <
-&kp ENTER  &kp N0     &kp N9     &kp N8     &kp N7     &kp N6      &msc SCRL_UP     &kp N7  &kp N8   &kp N9     &kp MINUS  &kp EQUAL  &kp BSPC
-&kp BSPC   &kp DOT    &kp UP     &kp MINUS  &kp EQUAL  &kp P       &msc SCRL_DOWN   &kp N4  &kp N5   &kp N6     &kp LBKT   &kp RBKT   &kp BSLH
-&kp DEL    &kp LEFT   &kp DOWN   &kp RIGHT  &mt F3 F1  &kp H       &msc SCRL_LEFT   &kp N1  &kp N2   &kp N3     &kp SEMI   &kp APOS   &kp ENTER
-&kp LC(N)  &kp LC(O)  &kp I      &kp LC(M)  &kp O      &kp BSLH    &msc SCRL_RIGHT  &kp N0  &kp DOT  &kp ENTER  &kp COMMA  &kp DOT    &kp FSLH
-&trans     &kp LBKT   &kp LC(E)  &kp RBKT   &kp F10    &trans      &trans           &trans  &trans   &kp RSHFT  &trans     &trans
+&kp ENTER  &kp N0     &kp N9     &kp N8     &kp N7     &kp N6      &msc MOVE_Y(20)   &kp N7  &kp N8   &kp N9     &kp MINUS  &kp EQUAL  &kp BSPC
+&kp BSPC   &kp DOT    &kp UP     &kp MINUS  &kp EQUAL  &kp P       &msc SCRL_DOWN    &kp N4  &kp N5   &kp N6     &kp LBKT   &kp RBKT   &kp BSLH
+&kp DEL    &kp LEFT   &kp DOWN   &kp RIGHT  &mt F3 F1  &kp H       &msc MOVE_X(-20)  &kp N1  &kp N2   &kp N3     &kp SEMI   &kp APOS   &kp ENTER
+&kp LC(N)  &kp LC(O)  &kp I      &kp LC(M)  &kp O      &kp BSLH    &msc SCRL_RIGHT   &kp N0  &kp DOT  &kp ENTER  &kp COMMA  &kp DOT    &kp FSLH
+&trans     &kp LBKT   &kp LC(E)  &kp RBKT   &kp F10    &trans      &trans            &trans  &trans   &kp RSHFT  &trans     &trans
             >;
 
             display-name = "layer1";

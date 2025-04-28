@@ -72,7 +72,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '7', s: '&'}
   - {t: '6', s: ^}
-  - $$mdi:pan-up$$
+  - '&msc MOVE_Y(20)'
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
@@ -98,7 +98,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: F1, h: F3}
   - H
-  - $$mdi:pan-left$$
+  - '&msc MOVE_X(-20)'
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}

@@ -94,7 +94,7 @@ layers:
   - {t: \, s: '|'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:arrow-left-bold$$
-  - {t: B, h: AC SCROLL UP}
+  - $$mdi:pan-down$$
   - $$mdi:arrow-right-bold$$
   - {t: F1, h: F3}
   - H
@@ -107,9 +107,9 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Ctl+N
   - Ctl+O
-  - I
+  - $$mdi:pan-up$$
   - Ctl+M
-  - O
+  - {t: I, h: O}
   - {t: \, s: '|'}
   - $$mdi:pan-right$$
   - {t: '1', s: '!'}
@@ -119,9 +119,9 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '[', s: '{'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+E
-  - {t: ']', s: '}'}
+  - {t: '[', h: ']', s: '{'}
   - F10
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}

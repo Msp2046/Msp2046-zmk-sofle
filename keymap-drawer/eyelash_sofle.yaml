@@ -419,7 +419,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Meh+Q
   - Meh+W
-  - $$mdi:pan-up$$
+  - '&msc MOVE_X(10)'
   - Meh+R
   - Meh+T
   - Meh+Y
@@ -432,7 +432,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Meh+U
   - {t: Meh+I, type: held}
-  - $$mdi:pan-down$$
+  - '&msc MOVE_Y(-10)'
   - Meh+O
   - Meh+P
   - Meh+A

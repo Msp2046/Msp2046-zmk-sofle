@@ -94,7 +94,7 @@ layers:
   - {t: \, s: '|'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:arrow-left-bold$$
-  - '&msc MOVE_Y(-5)'
+  - '&msc MOVE_Y(-7.5)'
   - $$mdi:arrow-right-bold$$
   - {t: F1, h: F3}
   - H

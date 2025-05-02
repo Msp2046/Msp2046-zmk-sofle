@@ -54,11 +54,11 @@
 
         layer_1 {
             bindings = <
-&kp ENTER  &kp N0     &kp N9          &kp N8         &kp N7     &kp N6      &msc SCRL_UP     &trans     &trans  &trans   &kp MINUS  &kp EQUAL  &kp BSPC
-&kp BSPC   &kp DOT    &mt UP DOWN     &kp MINUS      &kp EQUAL  &kp P       &msc SCRL_DOWN   &kp N7     &kp N8  &kp N9   &kp LBKT   &kp RBKT   &kp BSLH
-&kp DEL    &kp LEFT   &msc SCRL_DOWN  &kp RIGHT      &mt F3 F1  &kp H       &msc SCRL_LEFT   &kp N4     &kp N5  &kp N6   &kp SEMI   &kp APOS   &kp ENTER
-&kp LC(N)  &kp LC(O)  &trans          &kp LC(M)      &mt O I    &kp BSLH    &msc SCRL_RIGHT  &kp N1     &kp N2  &kp N3   &kp COMMA  &kp DOT    &kp FSLH
-&trans     &trans     &kp LC(E)       &mt RBKT LBKT  &kp F10    &trans      &trans           &kp RSHFT  &kp N0  &kp DOT  &trans     &trans
+&kp ENTER  &kp N0     &kp N9           &kp N8         &kp N7     &kp N6      &msc SCRL_UP     &trans     &trans  &trans   &kp MINUS  &kp EQUAL  &kp BSPC
+&kp BSPC   &kp DOT    &mt UP DOWN      &kp MINUS      &kp EQUAL  &kp P       &msc SCRL_DOWN   &kp N7     &kp N8  &kp N9   &kp LBKT   &kp RBKT   &kp BSLH
+&kp DEL    &kp LEFT   &msc MOVE_Y(-5)  &kp RIGHT      &mt F3 F1  &kp H       &msc SCRL_LEFT   &kp N4     &kp N5  &kp N6   &kp SEMI   &kp APOS   &kp ENTER
+&kp LC(N)  &kp LC(O)  &trans           &kp LC(M)      &mt O I    &kp BSLH    &msc SCRL_RIGHT  &kp N1     &kp N2  &kp N3   &kp COMMA  &kp DOT    &kp FSLH
+&trans     &trans     &kp LC(E)        &mt RBKT LBKT  &kp F10    &trans      &trans           &kp RSHFT  &kp N0  &kp DOT  &trans     &trans
             >;
 
             display-name = "layer1";
@@ -111,8 +111,8 @@
             bindings = <
 &kp LS(LA(LC(F1)))  &kp LA(LC(LS(F2)))  &kp LS(LA(LC(F3)))  &kp LA(LC(LS(F4)))   &kp LC(LA(LS(F5)))   &kp LS(LC(LA(F6)))     &trans  &trans  &trans   &trans   &trans   &trans  &trans
 &kp LS(LC(LA(F7)))  &kp LS(LA(LC(F8)))  &kp LA(LC(LS(F9)))  &kp LC(LA(LS(F10)))  &kp LS(LC(LA(F11)))  &kp LS(LC(LA(F12)))    &trans  &kp F7  &kp F8   &kp F9   &trans   &trans  &trans
-&kp LS(LC(LA(Q)))   &kp LA(LC(LS(W)))   &msc MOVE_X(10)     &kp LS(LC(LA(R)))    &kp LA(LC(LS(T)))    &kp LC(LS(LA(Y)))      &trans  &kp F4  &kp F5   &kp F6   &trans   &trans  &trans
-&kp LS(LA(LC(U)))   &kp LS(LA(LC(I)))   &msc MOVE_Y(-10)    &kp LS(LC(LA(O)))    &kp LA(LS(LC(P)))    &kp LS(LA(LC(A)))      &trans  &kp F1  &kp F2   &kp F3   &trans   &trans  &trans
+&kp LS(LC(LA(Q)))   &kp LA(LC(LS(W)))   &msc MOVE_Y(-10)    &kp LS(LC(LA(R)))    &kp LA(LC(LS(T)))    &kp LC(LS(LA(Y)))      &trans  &kp F4  &kp F5   &kp F6   &trans   &trans  &trans
+&kp LS(LA(LC(U)))   &kp LS(LA(LC(I)))   &msc MOVE_Y(-15)    &kp LS(LC(LA(O)))    &kp LA(LS(LC(P)))    &kp LS(LA(LC(A)))      &trans  &kp F1  &kp F2   &kp F3   &trans   &trans  &trans
 &trans              &kp LA(LC(LS(S)))   &kp LS(LA(LC(D)))   &kp LS(LC(LA(F)))    &kp LC(LA(LS(G)))    &kp LS(LA(LC(H)))      &trans  &trans  &kp F10  &kp F11  &kp F12  &trans
             >;
         };

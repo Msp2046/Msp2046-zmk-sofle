@@ -94,7 +94,7 @@ layers:
   - {t: \, s: '|'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:arrow-left-bold$$
-  - '&msc MOVE_Y(-5)'
+  - '&msc MOVE_Y(-10)'
   - $$mdi:arrow-right-bold$$
   - {t: F1, h: F3}
   - H
@@ -419,7 +419,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Meh+Q
   - Meh+W
-  - '&msc MOVE_Y(-10)'
+  - '&msc MOVE_Y(10)'
   - Meh+R
   - Meh+T
   - Meh+Y
@@ -432,7 +432,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Meh+U
   - {t: Meh+I, type: held}
-  - '&msc MOVE_Y(-15)'
+  - '&msc MOVE_Y(-10)'
   - Meh+O
   - Meh+P
   - Meh+A

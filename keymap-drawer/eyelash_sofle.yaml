@@ -62,9 +62,9 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - layer1
   - Maya
-  - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ., s: '>'}
+  - {t: ',', s: <}
+  - {t: /, s: '?'}
   layer1:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '0', s: )}
@@ -72,7 +72,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '7', s: '&'}
   - {t: '6', s: ^}
-  - '&msc MOVE_Y(20)'
+  - $$mdi:pan-up$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -98,7 +98,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: F1, h: F3}
   - H
-  - '&msc MOVE_X(-20)'
+  - $$mdi:pan-left$$
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
@@ -125,10 +125,10 @@ layers:
   - F10
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-shift$$', type: held alternate}
   - {t: '0', s: )}
   - {t: ., s: '>'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '2':
   - {t: '$$mdi:transfer$$', type: trans}

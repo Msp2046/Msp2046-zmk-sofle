@@ -68,7 +68,7 @@ layers:
   layer1:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '0', s: )}
-  - {t: '9', s: (}
+  - {t: '$$mdi:arrow-up-bold$$', h: '9'}
   - {t: '8', s: '*'}
   - {t: '7', s: '&'}
   - {t: '6', s: ^}
@@ -81,7 +81,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: ., s: '>'}
-  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-down-bold$$
   - {t: '-', s: _}
   - {t: '=', s: +}
   - P
@@ -94,7 +94,7 @@ layers:
   - {t: \, s: '|'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
+  - {t: B, h: AC SCROLL UP}
   - $$mdi:arrow-right-bold$$
   - {t: F1, h: F3}
   - H

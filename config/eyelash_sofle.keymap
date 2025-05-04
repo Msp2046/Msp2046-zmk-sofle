@@ -110,10 +110,10 @@
             display-name = "layer_6_Yingpin";
             bindings = <
 &kp LS(LA(LC(F1)))  &kp LA(LC(LS(F2)))  &kp LS(LA(LC(F3)))  &kp LA(LC(LS(F4)))   &kp LC(LA(LS(F5)))   &kp LS(LC(LA(F6)))     &trans  &trans  &trans   &trans   &trans   &trans  &trans
-&kp LS(LC(LA(F7)))  &kp LS(LA(LC(F8)))  &kp LA(LC(LS(F9)))  &kp LC(LA(LS(F10)))  &kp LS(LC(LA(F11)))  &kp LS(LC(LA(F12)))    &trans  &kp F7  &kp F8   &kp F9   &trans   &trans  &trans
-&kp LS(LC(LA(Q)))   &kp LA(LC(LS(W)))   &msc MOVE_Y(10)     &kp LS(LC(LA(R)))    &kp LA(LC(LS(T)))    &kp LC(LS(LA(Y)))      &trans  &kp F4  &kp F5   &kp F6   &trans   &trans  &trans
-&kp LS(LA(LC(U)))   &kp LS(LA(LC(I)))   &msc MOVE_Y(-10)    &kp LS(LC(LA(O)))    &kp LA(LS(LC(P)))    &kp LS(LA(LC(A)))      &trans  &kp F1  &kp F2   &kp F3   &trans   &trans  &trans
-&trans              &kp LA(LC(LS(S)))   &kp LS(LA(LC(D)))   &kp LS(LC(LA(F)))    &kp LC(LA(LS(G)))    &kp LS(LA(LC(H)))      &trans  &trans  &kp F10  &kp F11  &kp F12  &trans
+&kp LS(LC(LA(F7)))  &kp LS(LA(LC(F8)))  &msc MOVE_X(10)     &kp LC(LA(LS(F10)))  &kp LS(LC(LA(F11)))  &kp LS(LC(LA(F12)))    &trans  &kp F7  &kp F8   &kp F9   &trans   &trans  &trans
+&kp LS(LC(LA(Q)))   &kp LA(LC(LS(W)))   &msc MOVE_X(-10)    &kp LS(LC(LA(R)))    &kp LA(LC(LS(T)))    &kp LC(LS(LA(Y)))      &trans  &kp F4  &kp F5   &kp F6   &trans   &trans  &trans
+&kp LS(LA(LC(U)))   &kp LS(LA(LC(I)))   &kp LS(LA(LC(O)))   &kp LS(LA(LC(P)))    &kp LA(LS(LC(A)))    &kp LA(LC(LS(S)))      &trans  &kp F1  &kp F2   &kp F3   &trans   &trans  &trans
+&trans              &kp LA(LC(LS(D)))   &kp LS(LA(LC(F)))   &kp LA(LS(LC(G)))    &kp LA(LC(LS(H)))    &kp LS(LA(LC(J)))      &trans  &trans  &kp F10  &kp F11  &kp F12  &trans
             >;
         };
 

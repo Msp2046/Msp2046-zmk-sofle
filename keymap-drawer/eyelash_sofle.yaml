@@ -406,7 +406,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Meh+F7
   - Meh+F8
-  - Meh+F9
+  - '&msc MOVE_X(10)'
   - Meh+F10
   - Meh+F11
   - Meh+F12
@@ -419,7 +419,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Meh+Q
   - Meh+W
-  - '&msc MOVE_Y(10)'
+  - '&msc MOVE_X(-10)'
   - Meh+R
   - Meh+T
   - Meh+Y
@@ -432,10 +432,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Meh+U
   - {t: Meh+I, type: held}
-  - '&msc MOVE_Y(-10)'
   - Meh+O
   - Meh+P
   - Meh+A
+  - Meh+S
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
@@ -444,11 +444,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Meh+S
   - Meh+D
   - Meh+F
   - Meh+G
   - Meh+H
+  - Meh+J
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F10

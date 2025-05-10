@@ -57,7 +57,7 @@ layers:
   - Maya
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: layer1}
   - $$mdi:keyboard-space$$
   - $$mdi:mouse-left-click-outline$$
   - layer1
@@ -122,10 +122,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+E
   - {t: '[', h: ']', s: '{'}
-  - F10
+  - {t: F10, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {type: held alternate}
   - {t: '0', s: )}
   - {t: ., s: '>'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-shift$$'}

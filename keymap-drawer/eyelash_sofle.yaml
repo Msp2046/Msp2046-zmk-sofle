@@ -14,7 +14,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - A
   - S
   - D
@@ -57,8 +57,8 @@ layers:
   - Maya
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
-  - layer1
   - $$mdi:keyboard-space$$
+  - layer1
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Maya
@@ -122,8 +122,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+E
   - {t: '[', h: ']', s: '{'}
-  - {t: F10, type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F10
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}

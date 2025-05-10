@@ -38,7 +38,7 @@ layers:
   - J
   - K
   - L
-  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-control$$
   - layer_6_Yingpin

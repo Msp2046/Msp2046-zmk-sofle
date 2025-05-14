@@ -94,7 +94,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:arrow-left-bold$$
-  - '&msc MOVE_Y(10)'
+  - '&msc MOVE_Y(-10)'
   - $$mdi:arrow-right-bold$$
   - {t: F1, h: F3}
   - H
@@ -107,9 +107,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+N
   - Ctl+O
-  - '&msc MOVE_Y(-10)'
-  - {t: '[', h: ']', s: '{'}
   - {t: I, h: O}
+  - {t: '[', h: ']', s: '{'}
+  - '&msc MOVE_Y(10)'
   - {t: \, s: '|'}
   - Hyper+O
   - {t: '$$mdi:transfer$$', type: trans}

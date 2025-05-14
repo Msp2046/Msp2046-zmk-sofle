@@ -54,11 +54,11 @@
 
         layer_1 {
             bindings = <
-&kp ENTER  &kp N0     &kp N9            &kp N8                  &kp N7     &kp N6      &kp LS(LA(LC(LG(Y))))  &trans  &trans   &trans     &kp MINUS  &kp EQUAL  &kp BSPC
-&kp BSPC   &kp DOT    &mt UP DOWN       &kp MINUS               &kp EQUAL  &kp P       &kp LS(LA(LC(LG(I))))  &trans  &trans   &trans     &trans     &trans     &trans
-&kp DEL    &kp LEFT   &msc MOVE_Y(10)   &kp RIGHT               &mt F3 F1  &kp H       &kp LS(LG(LC(LA(U))))  &trans  &kp DOT  &kp COMMA  &trans     &kp APOS   &trans
-&kp LC(N)  &kp LC(O)  &msc MOVE_Y(-10)  &mt RIGHT_BRACKET LBKT  &mt O I    &kp BSLH    &kp LC(LG(LS(LA(O))))  &trans  &trans   &trans     &trans     &trans     &trans
-&trans     &kp LC(M)  &kp LC(E)         &trans                  &kp F10    &trans      &kp LS(LA(LC(LG(P))))  &trans  &trans   &trans     &trans     &kp RSHFT
+&kp ENTER  &kp N0     &kp N9            &kp N8                  &kp N7           &kp N6      &kp LS(LA(LC(LG(Y))))  &trans  &trans   &trans     &kp MINUS  &kp EQUAL  &kp BSPC
+&kp BSPC   &kp DOT    &mt UP DOWN       &kp MINUS               &kp EQUAL        &kp P       &kp LS(LA(LC(LG(I))))  &trans  &trans   &trans     &trans     &trans     &trans
+&kp DEL    &kp LEFT   &msc MOVE_Y(-10)  &kp RIGHT               &mt F3 F1        &kp H       &kp LS(LG(LC(LA(U))))  &trans  &kp DOT  &kp COMMA  &trans     &kp APOS   &trans
+&kp LC(N)  &kp LC(O)  &mt O I           &mt RIGHT_BRACKET LBKT  &msc MOVE_Y(10)  &kp BSLH    &kp LC(LG(LS(LA(O))))  &trans  &trans   &trans     &trans     &trans     &trans
+&trans     &kp LC(M)  &kp LC(E)         &trans                  &kp F10          &trans      &kp LS(LA(LC(LG(P))))  &trans  &trans   &trans     &trans     &kp RSHFT
             >;
 
             display-name = "layer1";

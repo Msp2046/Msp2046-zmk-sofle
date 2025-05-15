@@ -41,11 +41,11 @@
 
         Layer-0 {
             bindings = <
-&kp ESC       &kp N1  &kp N2  &kp N3    &kp N4     &kp N5       &kp LS(LC(LG(LA(H))))  &kp N6     &kp N7  &kp N8     &kp N9    &kp N0    &kp DELETE
-&kp TAB       &kp Q   &kp W   &kp E     &kp R      &kp T        &kp LS(LA(LC(LG(K))))  &kp Y      &kp U   &kp I      &kp O     &kp P     &kp BSPC
-&kp CAPSLOCK  &kp A   &kp S   &kp D     &kp F      &kp G        &kp LS(LG(LA(LC(J))))  &kp H      &kp J   &kp K      &kp L     &kp SEMI  &kp ENTER
-&kp LSHFT     &kp Z   &kp X   &kp C     &kp V      &kp B        &kp LS(LA(LC(LG(L))))  &kp N      &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&mo 3         &mo 2   &mo 1   &kp LALT  &kp SPACE  &kp LCTRL    &kp LA(LS(LC(LG(X))))  &kp SPACE  &mo 1   &kp LBKT   &kp RBKT  &kp BSLH
+&kp ESC    &kp N1  &kp N2     &kp N3    &kp N4     &kp N5    &kp LS(LC(LG(LA(H))))  &kp N6     &kp N7  &kp N8     &kp N9    &kp N0    &kp DELETE
+&kp TAB    &kp Q   &kp W      &kp E     &kp R      &kp T     &kp LS(LA(LC(LG(K))))  &kp Y      &kp U   &kp I      &kp O     &kp P     &kp BSPC
+&kp LSHFT  &kp A   &kp S      &kp D     &kp F      &kp G     &kp LS(LG(LA(LC(J))))  &kp H      &kp J   &kp K      &kp L     &kp SEMI  &kp ENTER
+&kp LCTRL  &kp Z   &kp X      &kp C     &kp V      &kp B     &kp LS(LA(LC(LG(L))))  &kp N      &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+&mo 3      &mo 2   &kp LSHFT  &kp LALT  &kp SPACE  &mo 1     &kp LA(LS(LC(LG(X))))  &kp SPACE  &mo 1   &kp LBKT   &kp RBKT  &kp BSLH
             >;
 
             display-name = "LAYER0";

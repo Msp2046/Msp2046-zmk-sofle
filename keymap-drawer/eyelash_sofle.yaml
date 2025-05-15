@@ -40,28 +40,28 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
   - V
-  - Hyper+L
   - B
+  - Hyper+L
   - N
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
+  - $$mdi:apple-keyboard-shift$$
   - Lanya
-  - Maya
-  - {t: '$$mdi:transfer$$', type: trans}
-  - layer1
+  - layer_6_Yingpin
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
+  - layer1
   - $$mdi:keyboard-space$$
   - Hyper+X
+  - $$mdi:keyboard-space$$
   - layer1
-  - Maya
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: \, s: '|'}
@@ -81,7 +81,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: ., s: '>'}
-  - {t: '$$mdi:arrow-down-bold$$', h: '$$mdi:arrow-up-bold$$'}
+  - $$mdi:arrow-up-bold$$
   - {t: '-', s: _}
   - {t: '=', s: +}
   - P
@@ -94,7 +94,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:arrow-left-bold$$
-  - '&msc MOVE_Y(-10)'
+  - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: F1, h: F3}
   - H
@@ -107,7 +107,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+N
   - Ctl+O
-  - {t: I, h: O}
+  - '&msc MOVE_Y(-10)'
   - {t: '[', h: ']', s: '{'}
   - '&msc MOVE_Y(10)'
   - {t: \, s: '|'}
@@ -119,82 +119,17 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+M
   - Ctl+E
+  - {t: I, h: O}
+  - Ctl+M
   - {type: held}
   - F10
-  - {t: '$$mdi:transfer$$', type: trans}
   - Hyper+P
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
-  Maya:
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - Meh+Q
-  - Meh+W
-  - Meh+E
-  - Gui+E
-  - Meh+R
-  - Meh+T
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - Meh+A
-  - Meh+S
-  - Meh+D
-  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
-  - Meh+F
-  - Gui+L
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - Meh+Z
-  - Meh+X
-  - Meh+C
-  - Meh+V
-  - Meh+B
-  - Meh+N
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   layer_6_Yingpin:
   - Meh+F1
   - Meh+F2
@@ -211,8 +146,8 @@ layers:
   - F3
   - Meh+F7
   - Meh+F8
-  - '&msc MOVE_Y(10)'
-  - Meh+F10
+  - Meh+F8
+  - Gui+E
   - Meh+F11
   - Meh+F12
   - {t: '$$mdi:transfer$$', type: trans}
@@ -224,8 +159,8 @@ layers:
   - F6
   - Meh+Q
   - Meh+W
-  - '&msc MOVE_Y(-10)'
-  - Meh+R
+  - Meh+E
+  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
   - Meh+T
   - Meh+Y
   - {t: '$$mdi:transfer$$', type: trans}
@@ -249,7 +184,7 @@ layers:
   - F11
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
-  - Meh+D
+  - {t: Meh+D, type: held}
   - Meh+F
   - Meh+G
   - Meh+H

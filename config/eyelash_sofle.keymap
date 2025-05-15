@@ -41,11 +41,11 @@
 
         Layer-0 {
             bindings = <
-&kp ESC       &kp N1     &kp N2  &kp N3  &kp N4    &kp N5       &kp LS(LC(LG(LA(H))))  &kp N6  &kp N7  &kp N8    &kp N9     &kp N0    &kp DELETE
-&kp TAB       &kp Q      &kp W   &kp E   &kp R     &kp T        &kp LS(LA(LC(LG(K))))  &kp Y   &kp U   &kp I     &kp O      &kp P     &kp BSPC
-&kp CAPSLOCK  &kp A      &kp S   &kp D   &kp F     &kp G        &kp LS(LG(LA(LC(J))))  &kp H   &kp J   &kp K     &kp L      &kp SEMI  &kp ENTER
-&kp LCTRL     &kp LSHFT  &kp Z   &kp X   &kp C     &kp V        &kp LS(LA(LC(LG(L))))  &kp B   &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH
-&mo 4         &mo 2      &trans  &mo 1   &kp LALT  &kp SPACE    &kp LA(LS(LC(LG(X))))  &mo 1   &mo 2   &kp LBKT  &kp RBKT   &kp BSLH
+&kp ESC       &kp N1  &kp N2     &kp N3    &kp N4  &kp N5       &kp LS(LC(LG(LA(H))))  &kp N6     &kp N7  &kp N8     &kp N9    &kp N0    &kp DELETE
+&kp TAB       &kp Q   &kp W      &kp E     &kp R   &kp T        &kp LS(LA(LC(LG(K))))  &kp Y      &kp U   &kp I      &kp O     &kp P     &kp BSPC
+&kp CAPSLOCK  &kp A   &kp S      &kp D     &kp F   &kp G        &kp LS(LG(LA(LC(J))))  &kp H      &kp J   &kp K      &kp L     &kp SEMI  &kp ENTER
+&kp LSHFT     &kp Z   &kp X      &kp C     &kp V   &kp B        &kp LS(LA(LC(LG(L))))  &kp N      &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+&mo 3         &mo 2   &kp LCTRL  &kp LALT  &mo 1   &kp SPACE    &kp LA(LS(LC(LG(X))))  &kp SPACE  &mo 1   &kp LBKT   &kp RBKT  &kp BSLH
             >;
 
             display-name = "LAYER0";
@@ -55,35 +55,23 @@
         layer_1 {
             bindings = <
 &kp ENTER  &kp N0     &kp N9            &kp N8                  &kp N7           &kp N6      &kp LS(LA(LC(LG(Y))))  &trans  &trans   &trans     &kp MINUS  &kp EQUAL  &kp BSPC
-&kp BSPC   &kp DOT    &mt UP DOWN       &kp MINUS               &kp EQUAL        &kp P       &kp LS(LA(LC(LG(I))))  &trans  &trans   &trans     &trans     &trans     &trans
-&kp DEL    &kp LEFT   &msc MOVE_Y(-10)  &kp RIGHT               &mt F3 F1        &kp H       &kp LS(LG(LC(LA(U))))  &trans  &kp DOT  &kp COMMA  &trans     &kp APOS   &trans
-&kp LC(N)  &kp LC(O)  &mt O I           &mt RIGHT_BRACKET LBKT  &msc MOVE_Y(10)  &kp BSLH    &kp LC(LG(LS(LA(O))))  &trans  &trans   &trans     &trans     &trans     &trans
-&trans     &kp LC(M)  &kp LC(E)         &trans                  &kp F10          &trans      &kp LS(LA(LC(LG(P))))  &trans  &trans   &trans     &trans     &kp RSHFT
+&kp BSPC   &kp DOT    &kp UP            &kp MINUS               &kp EQUAL        &kp P       &kp LS(LA(LC(LG(I))))  &trans  &trans   &trans     &trans     &trans     &trans
+&kp DEL    &kp LEFT   &kp DOWN          &kp RIGHT               &mt F3 F1        &kp H       &kp LS(LG(LC(LA(U))))  &trans  &kp DOT  &kp COMMA  &trans     &kp APOS   &trans
+&kp LC(N)  &kp LC(O)  &msc MOVE_Y(-10)  &mt RIGHT_BRACKET LBKT  &msc MOVE_Y(10)  &kp BSLH    &kp LC(LG(LS(LA(O))))  &trans  &trans   &trans     &trans     &trans     &trans
+&trans     &kp LC(E)  &mt O I           &kp LC(M)               &trans           &kp F10     &kp LS(LA(LC(LG(P))))  &trans  &trans   &trans     &trans     &kp RSHFT
             >;
 
             display-name = "layer1";
         };
 
-        layer_2 {
-            bindings = <
-&kp N1             &kp N2             &kp N3             &kp N4             &kp N5             &kp N6               &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LS(LA(LC(Q)))  &kp LA(LC(LS(W)))  &kp LA(LS(LC(E)))  &kp LG(E)          &kp LS(LA(LC(R)))  &kp LA(LC(LS(T)))    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LA(LS(LC(A)))  &kp LC(LA(LS(S)))  &kp LA(LS(LC(D)))  &kp LG(D)          &kp LC(LA(LS(F)))  &kp LG(L)            &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LC(LA(LS(Z)))  &kp LS(LA(LC(X)))  &kp LS(LA(LC(C)))  &kp LC(LA(LS(V)))  &kp LC(LA(LS(B)))  &kp LC(LA(LS(N)))    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans             &trans             &trans             &trans             &trans             &trans               &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-
-            label = "Maya";
-        };
-
         layer_3 {
             display-name = "layer_6_Yingpin";
             bindings = <
-&kp LS(LA(LC(F1)))  &kp LA(LC(LS(F2)))  &kp LS(LA(LC(F3)))  &kp LA(LC(LS(F4)))   &kp LC(LA(LS(F5)))   &kp LS(LC(LA(F6)))     &trans  &trans  &trans  &trans  &kp F1   &kp F2     &kp F3
-&kp LS(LC(LA(F7)))  &kp LS(LA(LC(F8)))  &msc MOVE_Y(10)     &kp LC(LA(LS(F10)))  &kp LS(LC(LA(F11)))  &kp LS(LC(LA(F12)))    &trans  &kp N7  &kp N8  &kp N9  &kp F4   &kp F5     &kp F6
-&kp LS(LC(LA(Q)))   &kp LA(LC(LS(W)))   &msc MOVE_Y(-10)    &kp LS(LC(LA(R)))    &kp LA(LC(LS(T)))    &kp LC(LS(LA(Y)))      &trans  &kp N4  &kp N5  &kp N6  &kp F7   &kp F8     &kp F9
-&kp LS(LA(LC(U)))   &kp LS(LA(LC(I)))   &kp LS(LA(LC(O)))   &kp LS(LA(LC(P)))    &kp LA(LS(LC(A)))    &kp LA(LC(LS(S)))      &trans  &kp N1  &kp N2  &kp N3  &kp F10  &kp F11    &kp F12
-&trans              &kp LA(LC(LS(D)))   &kp LS(LA(LC(F)))   &kp LA(LS(LC(G)))    &kp LA(LC(LS(H)))    &kp LS(LA(LC(J)))      &trans  &trans  &trans  &kp N0  &kp DOT  &kp ENTER
+&kp LS(LA(LC(F1)))  &kp LA(LC(LS(F2)))  &kp LS(LA(LC(F3)))  &kp LA(LC(LS(F4)))  &kp LC(LA(LS(F5)))   &kp LS(LC(LA(F6)))     &trans  &trans  &trans  &trans  &kp F1   &kp F2     &kp F3
+&kp LS(LC(LA(F7)))  &kp LS(LA(LC(F8)))  &kp LS(LA(LC(F8)))  &kp LG(E)           &kp LS(LC(LA(F11)))  &kp LS(LC(LA(F12)))    &trans  &kp N7  &kp N8  &kp N9  &kp F4   &kp F5     &kp F6
+&kp LS(LC(LA(Q)))   &kp LA(LC(LS(W)))   &kp LS(LA(LC(E)))   &kp LG(D)           &kp LA(LC(LS(T)))    &kp LC(LS(LA(Y)))      &trans  &kp N4  &kp N5  &kp N6  &kp F7   &kp F8     &kp F9
+&kp LS(LA(LC(U)))   &kp LS(LA(LC(I)))   &kp LS(LA(LC(O)))   &kp LS(LA(LC(P)))   &kp LA(LS(LC(A)))    &kp LA(LC(LS(S)))      &trans  &kp N1  &kp N2  &kp N3  &kp F10  &kp F11    &kp F12
+&trans              &kp LA(LC(LS(D)))   &kp LS(LA(LC(F)))   &kp LA(LS(LC(G)))   &kp LA(LC(LS(H)))    &kp LS(LA(LC(J)))      &trans  &trans  &trans  &kp N0  &kp DOT  &kp ENTER
             >;
         };
 

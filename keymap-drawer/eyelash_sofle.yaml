@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:apple-keyboard-shift$$
   - A
   - S
   - D
@@ -40,7 +40,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - Z
   - X
   - C
@@ -55,10 +55,10 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - Lanya
   - layer_6_Yingpin
-  - layer1
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
-  - $$mdi:apple-keyboard-control$$
+  - layer1
   - Hyper+X
   - $$mdi:keyboard-space$$
   - layer1
@@ -120,10 +120,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+E
-  - {t: I, h: O, type: held}
+  - {t: I, h: O}
   - Ctl+M
   - {t: '$$mdi:transfer$$', type: trans}
-  - F10
+  - {t: F10, type: held}
   - Hyper+P
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}

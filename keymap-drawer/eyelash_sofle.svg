@@ -295,8 +295,9 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">Hyper+</tspan><tspan x="0" dy="1.2em">H</tspan>
+<tspan x="0" dy="-0.0em">Hyper+</tspan><tspan x="0" dy="1.2em">6</tspan>
 </text>
+<text x="0" y="-24" class="key shifted"><tspan style="font-size: 86%">Hyper+^</tspan></text>
 </g>
 <g transform="translate(616, 35)" class="key keypos-7">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -367,8 +368,9 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">Hyper+</tspan><tspan x="0" dy="1.2em">K</tspan>
+<tspan x="0" dy="-0.0em">Hyper+</tspan><tspan x="0" dy="1.2em">8</tspan>
 </text>
+<text x="0" y="-24" class="key shifted"><tspan style="font-size: 86%">Hyper+*</tspan></text>
 </g>
 <g transform="translate(616, 91)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -435,8 +437,9 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">Hyper+</tspan><tspan x="0" dy="1.2em">J</tspan>
+<tspan x="0" dy="-0.0em">Hyper+</tspan><tspan x="0" dy="1.2em">7</tspan>
 </text>
+<text x="0" y="-24" class="key shifted"><tspan style="font-size: 86%">Hyper+&amp;</tspan></text>
 </g>
 <g transform="translate(616, 147)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -503,8 +506,9 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">Hyper+</tspan><tspan x="0" dy="1.2em">L</tspan>
+<tspan x="0" dy="-0.0em">Hyper+</tspan><tspan x="0" dy="1.2em">9</tspan>
 </text>
+<text x="0" y="-24" class="key shifted"><tspan style="font-size: 86%">Hyper+(</tspan></text>
 </g>
 <g transform="translate(616, 203)" class="key keypos-46">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -576,8 +580,9 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">Hyper+</tspan><tspan x="0" dy="1.2em">X</tspan>
+<tspan x="0" dy="-0.0em">Hyper+</tspan><tspan x="0" dy="1.2em">0</tspan>
 </text>
+<text x="0" y="-24" class="key shifted"><tspan style="font-size: 86%">Hyper+)</tspan></text>
 </g>
 <g transform="translate(535, 294) rotate(-30.0)" class="key keypos-59">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -653,8 +658,9 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">Hyper+</tspan><tspan x="0" dy="1.2em">Y</tspan>
+<tspan x="0" dy="-0.0em">Hyper+</tspan><tspan x="0" dy="1.2em">1</tspan>
 </text>
+<text x="0" y="-24" class="key shifted"><tspan style="font-size: 86%">Hyper+!</tspan></text>
 </g>
 <g transform="translate(616, 35)" class="key trans keypos-7">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -725,8 +731,9 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">Hyper+</tspan><tspan x="0" dy="1.2em">I</tspan>
+<tspan x="0" dy="-0.0em">Hyper+</tspan><tspan x="0" dy="1.2em">3</tspan>
 </text>
+<text x="0" y="-24" class="key shifted"><tspan style="font-size: 86%">Hyper+#</tspan></text>
 </g>
 <g transform="translate(616, 91)" class="key trans keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -793,8 +800,9 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">Hyper+</tspan><tspan x="0" dy="1.2em">U</tspan>
+<tspan x="0" dy="-0.0em">Hyper+</tspan><tspan x="0" dy="1.2em">2</tspan>
 </text>
+<text x="0" y="-24" class="key shifted"><tspan style="font-size: 86%">Hyper+@</tspan></text>
 </g>
 <g transform="translate(616, 147)" class="key trans keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -870,8 +878,9 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">Hyper+</tspan><tspan x="0" dy="1.2em">O</tspan>
+<tspan x="0" dy="-0.0em">Hyper+</tspan><tspan x="0" dy="1.2em">4</tspan>
 </text>
+<text x="0" y="-24" class="key shifted"><tspan style="font-size: 86%">Hyper+$</tspan></text>
 </g>
 <g transform="translate(616, 203)" class="key trans keypos-46">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -937,8 +946,9 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">Hyper+</tspan><tspan x="0" dy="1.2em">P</tspan>
+<tspan x="0" dy="-0.0em">Hyper+</tspan><tspan x="0" dy="1.2em">5</tspan>
 </text>
+<text x="0" y="-24" class="key shifted"><tspan style="font-size: 86%">Hyper+%</tspan></text>
 </g>
 <g transform="translate(535, 294) rotate(-30.0)" class="key held alternate keypos-59">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held alternate side"/>

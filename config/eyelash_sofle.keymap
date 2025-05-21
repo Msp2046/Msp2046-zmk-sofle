@@ -58,7 +58,7 @@
 &kp BSPC   &kp DOT    &kp UP            &kp MINUS               &kp EQUAL        &kp P       &kp LS(LA(LC(LG(I))))  &trans  &trans   &trans     &trans     &trans     &trans
 &kp DEL    &kp LEFT   &kp DOWN          &kp RIGHT               &mt F3 F1        &kp H       &kp LS(LG(LC(LA(U))))  &trans  &kp DOT  &kp COMMA  &trans     &kp APOS   &trans
 &kp LC(N)  &kp LC(O)  &msc MOVE_Y(-10)  &mt RIGHT_BRACKET LBKT  &msc MOVE_Y(10)  &kp BSLH    &kp LC(LG(LS(LA(O))))  &trans  &trans   &trans     &trans     &trans     &trans
-&trans     &kp LC(E)  &mt O I           &kp LC(M)               &trans           &kp F10     &kp LS(LA(LC(LG(P))))  &trans  &trans   &trans     &trans     &kp RSHFT
+&trans     &kp LC(E)  &mt O I           &kp LC(M)               &kp F10          &trans      &kp LS(LA(LC(LG(P))))  &trans  &trans   &trans     &trans     &kp RSHFT
             >;
 
             display-name = "layer1";

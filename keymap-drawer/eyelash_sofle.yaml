@@ -146,7 +146,7 @@ layers:
   - F3
   - Meh+F7
   - Meh+F8
-  - Meh+F8
+  - Meh+F9
   - Gui+E
   - Meh+F11
   - Meh+F12
@@ -162,7 +162,7 @@ layers:
   - Meh+E
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
   - Meh+T
-  - Meh+Y
+  - Gui+L
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '4', s: $}
   - {t: '5', s: '%'}

@@ -122,8 +122,8 @@ layers:
   - Ctl+E
   - {t: I, h: O}
   - Ctl+M
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: F10, type: held}
+  - F10
+  - {type: held}
   - Hyper+P
   - {type: held alternate}
   - {type: held alternate}

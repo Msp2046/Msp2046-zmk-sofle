@@ -261,12 +261,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '4':
-  - {t: Meh+1, s: Meh+!}
-  - {t: Meh+2, s: Meh+@}
-  - {t: Meh+3, s: Meh+#}
-  - {t: Meh+4, s: Meh+$}
-  - {t: Meh+5, s: Meh+%}
-  - {t: Meh+6, s: Meh+^}
+  - {t: Alt+Ctl+1, s: Alt+Ctl+!}
+  - {t: Ctl+Alt+2, s: Ctl+Alt+@}
+  - {t: Alt+Ctl+3, s: Alt+Ctl+#}
+  - {t: Alt+Ctl+4, s: Alt+Ctl+$}
+  - {t: Ctl+Alt+5, s: Ctl+Alt+%}
+  - {t: Ctl+Alt+6, s: Ctl+Alt+^}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -274,12 +274,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Meh+7, s: Meh+&}
-  - {t: Meh+8, s: Meh+*}
-  - {t: Meh+9, s: Meh+(}
-  - {t: Meh+0, s: Meh+)}
-  - Meh+Q
-  - Meh+W
+  - {t: Alt+Ctl+7, s: Alt+Ctl+&}
+  - {t: Alt+Ctl+8, s: Alt+Ctl+*}
+  - {t: Ctl+Alt+9, s: Ctl+Alt+(}
+  - {t: Alt+Ctl+0, s: Alt+Ctl+)}
+  - Ctl+Alt+Q
+  - Ctl+Alt+W
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -287,12 +287,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Meh+E
-  - Meh+R
-  - Meh+T
-  - Meh+Y
-  - Meh+U
-  - Meh+I
+  - Alt+Ctl+E
+  - Alt+Ctl+R
+  - Alt+Ctl+T
+  - Alt+Ctl+Y
+  - Alt+Ctl+U
+  - Alt+Ctl+I
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -300,12 +300,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Meh+O
-  - Meh+P
-  - Meh+Z
-  - Meh+X
-  - Meh+C
-  - Meh+V
+  - Ctl+Alt+O
+  - Ctl+Alt+P
+  - Alt+Ctl+Z
+  - Alt+Ctl+X
+  - Ctl+Alt+C
+  - Alt+Ctl+V
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -314,11 +314,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Meh+B
-  - Meh+N
+  - Alt+Ctl+B
+  - Alt+Ctl+N
   - {type: held}
-  - Meh+M
-  - Meh+A
+  - Alt+Ctl+M
+  - Alt+Ctl+A
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

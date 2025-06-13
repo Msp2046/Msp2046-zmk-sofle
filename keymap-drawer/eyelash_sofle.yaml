@@ -54,9 +54,9 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - Lanya
+  - layer_6_Yingpin
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
-  - '4'
   - $$mdi:keyboard-space$$
   - layer1
   - {t: Hyper+0, s: Hyper+)}
@@ -184,7 +184,7 @@ layers:
   - F11
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
-  - Meh+D
+  - {t: Meh+D, type: held}
   - Meh+F
   - Meh+G
   - Meh+H
@@ -316,7 +316,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Alt+Ctl+B
   - Alt+Ctl+N
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Alt+Ctl+M
   - Alt+Ctl+A
   - {t: '$$mdi:transfer$$', type: trans}

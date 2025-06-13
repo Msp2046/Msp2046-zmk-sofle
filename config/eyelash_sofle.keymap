@@ -89,11 +89,11 @@
 
         layer_4 {
             bindings = <
-&kp LA(LC(N1))  &kp LC(LA(N2))  &kp LA(LC(N3))  &kp LA(LC(N4))  &kp LC(LA(N5))  &kp LC(LA(N6))    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LA(LC(N7))  &kp LA(LC(N8))  &kp LC(LA(N9))  &kp LA(LC(N0))  &kp LC(LA(Q))   &kp LC(LA(W))     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LA(LC(E))   &kp LA(LC(R))   &kp LA(LC(T))   &kp LA(LC(Y))   &kp LA(LC(U))   &kp LA(LC(I))     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LC(LA(O))   &kp LC(LA(P))   &kp LA(LC(Z))   &kp LA(LC(X))   &kp LC(LA(C))   &kp LA(LC(V))     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &kp LA(LC(B))   &kp LA(LC(N))   &trans          &kp LA(LC(M))   &kp LA(LC(A))     &trans  &trans  &trans  &trans  &trans  &trans
+&kp LA(LC(N1))  &kp LC(LA(N2))          &kp LA(LC(N3))  &kp LA(LC(N4))          &kp LC(LA(N5))  &kp LC(LA(N6))    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LA(LC(N7))  &kp LA(LC(LG(LS(N8))))  &kp LC(LA(N9))  &kp LA(LC(LS(LG(N0))))  &kp LC(LA(Q))   &kp LC(LA(W))     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LA(LC(E))   &kp LA(LC(LS(LG(R))))   &kp LA(LC(T))   &kp LA(LC(LG(LS(Y))))   &kp LA(LC(U))   &kp LA(LC(I))     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LC(LA(O))   &kp LC(LA(LS(LG(P))))   &kp LA(LC(Z))   &kp LA(LC(LG(LS(X))))   &kp LC(LA(C))   &kp LA(LC(V))     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &kp LA(LC(B))           &kp LA(LC(N))   &trans                  &kp LA(LC(M))   &kp LA(LC(A))     &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };

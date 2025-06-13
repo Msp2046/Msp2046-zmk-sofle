@@ -54,9 +54,9 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - Lanya
-  - layer_6_Yingpin
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
+  - '4'
   - $$mdi:keyboard-space$$
   - layer1
   - {t: Hyper+0, s: Hyper+)}
@@ -184,7 +184,7 @@ layers:
   - F11
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Meh+D, type: held}
+  - Meh+D
   - Meh+F
   - Meh+G
   - Meh+H
@@ -254,6 +254,71 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  '4':
+  - {t: Meh+1, s: Meh+!}
+  - {t: Meh+2, s: Meh+@}
+  - {t: Meh+3, s: Meh+#}
+  - {t: Meh+4, s: Meh+$}
+  - {t: Meh+5, s: Meh+%}
+  - {t: Meh+6, s: Meh+^}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Meh+7, s: Meh+&}
+  - {t: Meh+8, s: Meh+*}
+  - {t: Meh+9, s: Meh+(}
+  - {t: Meh+0, s: Meh+)}
+  - Meh+Q
+  - Meh+W
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Meh+E
+  - Meh+R
+  - Meh+T
+  - Meh+Y
+  - Meh+U
+  - Meh+I
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Meh+O
+  - Meh+P
+  - Meh+Z
+  - Meh+X
+  - Meh+C
+  - Meh+V
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Meh+B
+  - Meh+N
+  - {type: held}
+  - Meh+M
+  - Meh+A
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

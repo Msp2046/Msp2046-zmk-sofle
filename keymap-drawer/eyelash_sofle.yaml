@@ -7,7 +7,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - {t: Hyper+6, s: Hyper+^}
+  - $$mdi:apple-keyboard-option$$
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -46,7 +46,7 @@ layers:
   - C
   - V
   - B
-  - {t: Hyper+9, s: Hyper+(}
+  - $$mdi:apple-keyboard-shift$$
   - N
   - M
   - {t: ',', s: <}

@@ -41,11 +41,11 @@
 
         Layer-0 {
             bindings = <
-&kp ESC    &kp N1  &kp N2     &kp N3    &kp N4     &kp N5    &kp LALT                &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp DELETE
-&kp TAB    &kp Q   &kp W      &kp E     &kp R      &kp T     &kp LG(LC(LA(LS(N8))))  &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSPC
-&kp LSHFT  &kp A   &kp S      &kp D     &kp F      &kp G     &kp LA(LS(LC(LG(N7))))  &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp ENTER
-&kp LCTRL  &kp Z   &kp X      &kp C     &kp V      &kp B     &kp LSHFT               &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&mo 3      &mo 2   &kp LSHFT  &kp LALT  &kp SPACE  &mo 1     &kp LS(LA(LC(LG(N0))))  &mo 1   &mo 1   &kp LBKT   &kp RBKT  &kp BSLH
+&kp ESC    &kp N1  &kp N2     &kp N3    &kp N4     &kp N5    &trans  &kp N6     &kp N7     &kp N8     &kp N9    &kp N0    &kp DELETE
+&kp TAB    &kp Q   &kp W      &kp E     &kp R      &kp T     &trans  &kp Y      &kp U      &kp I      &kp O     &kp P     &kp BSPC
+&kp LSHFT  &kp A   &kp S      &kp D     &kp F      &kp G     &trans  &kp H      &kp J      &kp K      &kp L     &kp SEMI  &kp ENTER
+&kp LCTRL  &kp Z   &kp X      &kp C     &kp V      &kp B     &trans  &kp N      &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+&mo 3      &mo 2   &kp LSHFT  &kp LALT  &kp SPACE  &mo 1     &trans  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH
             >;
 
             display-name = "LAYER0";
@@ -54,11 +54,11 @@
 
         layer_1 {
             bindings = <
-&kp ENTER  &kp N0     &kp N9            &kp N8                  &kp N7           &kp N6      &kp LS(LA(LC(LG(N1))))  &trans  &trans   &trans     &kp MINUS  &kp EQUAL  &kp BSPC
-&kp BSPC   &kp DOT    &kp UP            &kp MINUS               &kp EQUAL        &kp P       &kp LS(LA(LC(LG(N3))))  &trans  &trans   &trans     &trans     &trans     &trans
-&kp DEL    &kp LEFT   &kp DOWN          &kp RIGHT               &mt F3 F1        &kp H       &kp LS(LA(LC(LG(N2))))  &trans  &kp DOT  &kp COMMA  &trans     &kp APOS   &trans
-&kp LC(N)  &kp LC(O)  &msc MOVE_Y(-10)  &mt RIGHT_BRACKET LBKT  &msc MOVE_Y(10)  &kp BSLH    &kp LS(LA(LC(LG(N4))))  &trans  &trans   &trans     &trans     &trans     &trans
-&trans     &kp LC(E)  &mt O I           &kp LC(M)               &kp F10          &trans      &kp LC(LA(LS(LG(N5))))  &trans  &trans   &trans     &trans     &kp RSHFT
+&kp ENTER  &kp N0     &kp N9            &kp N8                  &kp N7           &kp N6         &kp LS(LA(LC(LG(N1))))  &trans  &trans   &trans     &trans  &trans  &trans
+&kp BSPC   &kp DOT    &kp MINUS         &kp UP                  &kp EQUAL        &kp P          &kp LS(LA(LC(LG(N3))))  &trans  &trans   &trans     &trans  &trans  &trans
+&kp DEL    &mt F3 F1  &kp LEFT          &kp DOWN                &kp RIGHT        &mt LS(H) H    &kp LS(LA(LC(LG(N2))))  &trans  &kp DOT  &kp COMMA  &trans  &trans  &kp APOS
+&kp LC(N)  &kp LC(O)  &msc MOVE_Y(-10)  &mt RIGHT_BRACKET LBKT  &msc MOVE_Y(10)  &kp BSLH       &kp LS(LA(LC(LG(N4))))  &trans  &trans   &trans     &trans  &trans  &trans
+&trans     &kp LC(E)  &mt O I           &kp LC(M)               &kp F10          &trans         &kp LC(LA(LS(LG(N5))))  &trans  &trans   &trans     &trans  &trans
             >;
 
             display-name = "layer1";
@@ -67,21 +67,21 @@
         layer_2 {
             display-name = "layer_6_Yingpin";
             bindings = <
-&kp LS(LA(LC(F1)))  &kp LA(LC(LS(F2)))  &kp LS(LA(LC(F3)))  &kp LA(LC(LS(F4)))  &kp LC(LA(LS(F5)))   &kp LS(LC(LA(F6)))     &trans  &trans  &trans  &trans  &kp F1   &kp F2     &kp F3
-&kp LS(LC(LA(F7)))  &kp LS(LA(LC(F8)))  &kp LS(LA(LC(F9)))  &kp LG(E)           &kp LS(LC(LA(F11)))  &kp LS(LC(LA(F12)))    &trans  &kp N7  &kp N8  &kp N9  &kp F4   &kp F5     &kp F6
-&kp LS(LC(LA(Q)))   &kp LA(LC(LS(W)))   &kp LS(LA(LC(E)))   &kp LG(D)           &kp LA(LC(LS(T)))    &kp LG(L)              &trans  &kp N4  &kp N5  &kp N6  &kp F7   &kp F8     &kp F9
-&kp LS(LA(LC(U)))   &kp LS(LA(LC(I)))   &kp LS(LA(LC(O)))   &kp LS(LA(LC(P)))   &kp LA(LS(LC(A)))    &kp LA(LC(LS(S)))      &trans  &kp N1  &kp N2  &kp N3  &kp F10  &kp F11    &kp F12
-&trans              &kp LA(LC(LS(D)))   &kp LS(LA(LC(F)))   &kp LA(LS(LC(G)))   &kp LA(LC(LS(H)))    &kp LS(LA(LC(J)))      &trans  &trans  &trans  &kp N0  &kp DOT  &kp ENTER
+&kp LS(LA(LC(F1)))  &kp LA(LC(LS(F2)))  &kp LS(LA(LC(F3)))  &kp LA(LC(LS(F4)))  &kp LC(LA(LS(F5)))   &kp LS(LC(LA(F6)))     &trans  &kp N7  &kp N8   &kp N9     &kp F1   &kp F2   &kp F3
+&kp LS(LC(LA(F7)))  &kp LS(LA(LC(F8)))  &kp LS(LA(LC(F9)))  &kp LG(E)           &kp LS(LC(LA(F11)))  &kp LS(LC(LA(F12)))    &trans  &kp N4  &kp N5   &kp N6     &kp F4   &kp F5   &kp F6
+&kp LS(LC(LA(Q)))   &kp LA(LC(LS(W)))   &kp LS(LA(LC(E)))   &kp LG(D)           &kp LA(LC(LS(T)))    &kp LG(L)              &trans  &kp N7  &kp N8   &kp N9     &kp F7   &kp F8   &kp F9
+&kp LS(LA(LC(U)))   &kp LS(LA(LC(I)))   &kp LS(LA(LC(O)))   &kp LS(LA(LC(P)))   &kp LA(LS(LC(A)))    &kp LA(LC(LS(S)))      &trans  &kp N0  &kp DOT  &kp ENTER  &kp F10  &kp F11  &kp F12
+&trans              &kp LA(LC(LS(D)))   &kp LS(LA(LC(F)))   &kp LA(LS(LC(G)))   &kp LA(LC(LS(H)))    &kp LS(LA(LC(J)))      &trans  &trans  &trans   &trans     &trans   &trans
             >;
         };
 
         layer_3 {
             bindings = <
-&trans  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR_ALL    &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_CLR_ALL
-&trans  &trans        &trans        &trans        &trans        &trans            &trans  &trans  &trans  &trans  &trans  &trans        &trans
-&trans  &trans        &trans        &trans        &trans        &trans            &trans  &trans  &trans  &trans  &trans  &trans        &trans
-&trans  &trans        &trans        &trans        &trans        &trans            &trans  &trans  &trans  &trans  &trans  &trans        &trans
-&trans  &trans        &trans        &trans        &trans        &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR_ALL    &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_CLR_ALL
+&trans        &trans        &trans        &trans        &trans        &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &trans        &trans        &trans        &trans        &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &trans        &trans        &trans        &trans        &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &trans        &trans        &trans        &trans        &trans            &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "Lanya";

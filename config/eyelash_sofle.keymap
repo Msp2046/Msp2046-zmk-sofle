@@ -67,7 +67,7 @@
         layer_2 {
             display-name = "layer_6_Yingpin";
             bindings = <
-&kp LS(LA(LC(F1)))  &kp LA(LC(LS(F2)))  &kp LS(LA(LC(F3)))  &kp LA(LC(LS(F4)))  &kp LC(LA(LS(F5)))   &kp LS(LC(LA(F6)))     &trans  &kp N7  &kp N8   &kp N9     &kp F1   &kp F2   &kp F3
+&bt BT_CLR_ALL      &kp LA(LC(LS(F2)))  &bt BT_SEL 0        &kp LA(LC(LS(F4)))  &kp LC(LA(LS(F5)))   &kp LS(LC(LA(F6)))     &trans  &kp N7  &kp N8   &kp N9     &kp F1   &kp F2   &kp F3
 &kp LS(LC(LA(F7)))  &kp LS(LA(LC(F8)))  &kp LS(LA(LC(F9)))  &kp LG(E)           &kp LS(LC(LA(F11)))  &kp LS(LC(LA(F12)))    &trans  &kp N4  &kp N5   &kp N6     &kp F4   &kp F5   &kp F6
 &kp LS(LC(LA(Q)))   &kp LA(LC(LS(W)))   &kp LS(LA(LC(E)))   &kp LG(D)           &kp LA(LC(LS(T)))    &kp LG(L)              &trans  &kp N7  &kp N8   &kp N9     &kp F7   &kp F8   &kp F9
 &kp LS(LA(LC(U)))   &kp LS(LA(LC(I)))   &kp LS(LA(LC(O)))   &kp LS(LA(LC(P)))   &kp LA(LS(LC(A)))    &kp LA(LC(LS(S)))      &trans  &kp N0  &kp DOT  &kp ENTER  &kp F10  &kp F11  &kp F12

@@ -131,9 +131,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   layer_6_Yingpin:
-  - Meh+F1
+  - BT CLR ALL
   - Meh+F2
-  - Meh+F3
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - Meh+F4
   - Meh+F5
   - Meh+F6

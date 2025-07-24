@@ -138,9 +138,9 @@ layers:
   - Meh+F5
   - Meh+F6
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
   - F3
@@ -151,9 +151,9 @@ layers:
   - Meh+F11
   - Meh+F12
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
   - F4
   - F5
   - F6
@@ -164,9 +164,9 @@ layers:
   - Meh+T
   - Gui+L
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
   - F7
   - F8
   - F9
@@ -177,9 +177,9 @@ layers:
   - Meh+A
   - Meh+S
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '0', s: )}
-  - {t: ., s: '>'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
   - F10
   - F11
   - F12
@@ -192,8 +192,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '0', s: )}
+  - {t: ., s: '>'}
   - {t: '$$mdi:transfer$$', type: trans}
   Lanya:
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}

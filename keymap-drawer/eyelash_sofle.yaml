@@ -106,10 +106,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '''', s: '"'}
   - Ctl+N
+  - '&msc MOVE_X(-15)'
   - Ctl+O
-  - '&msc MOVE_Y(-10)'
-  - {t: '[', h: ']', s: '{'}
-  - '&msc MOVE_Y(10)'
+  - '&msc MOVE_X(15)'
+  - {t: F5, h: F10}
   - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -120,9 +120,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+E
-  - {t: I, h: O}
   - Ctl+M
-  - F10
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

@@ -106,9 +106,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '''', s: '"'}
   - Ctl+N
-  - '&msc MOVE_X(-15)'
+  - '&msc MOVE_Y(-15)'
   - Ctl+O
-  - '&msc MOVE_X(15)'
+  - '&msc MOVE_Y(15)'
   - {t: F5, h: F10}
   - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}

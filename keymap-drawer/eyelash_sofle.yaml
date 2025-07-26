@@ -80,10 +80,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: ., s: '>'}
+  - '&msc MOVE_Y(10)'
   - $$mdi:arrow-up-bold$$
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - '&msc MOVE_Y(-10)'
+  - {t: '=', h: '-', s: +}
   - P
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -107,8 +107,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+N
   - Ctl+O
-  - '&msc MOVE_Y(10)'
-  - '&msc MOVE_Y(-10)'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: F5, h: F10}
   - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}

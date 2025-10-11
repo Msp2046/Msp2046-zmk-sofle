@@ -108,7 +108,7 @@ layers:
   - Ctl+N
   - Ctl+O
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F2
   - {t: F5, h: F10}
   - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}

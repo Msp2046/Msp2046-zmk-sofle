@@ -58,7 +58,7 @@
 &kp BSPC   &msc MOVE_Y(10)  &kp UP    &msc MOVE_Y(-10)  &kp MINUS   &kp EQUAL      &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &kp DEL    &kp LEFT         &kp DOWN  &kp RIGHT         &mt F3 F1   &mt LS(H) H    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &kp LC(N)  &kp LC(O)        &trans    &kp F2            &mt F10 F5  &kp BSLH       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &kp F11          &trans    &trans            &kp P       &trans         &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &kp F11          &trans    &trans            &kp F9      &trans         &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             display-name = "layer1";

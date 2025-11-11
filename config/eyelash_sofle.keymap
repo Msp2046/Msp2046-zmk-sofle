@@ -67,11 +67,11 @@
         layer_2 {
             display-name = "layer_6_Yingpin";
             bindings = <
-&kp F9             &kp F1             &kp F2             &kp F3             &kp F4             &kp F5               &trans  &trans  &trans  &trans  &kp F1   &kp F2   &kp F3
-&kp F6             &kp F7             &kp F8             &kp LG(E)          &kp LG(R)          &kp F10              &trans  &kp N7  &kp N8  &kp N9  &kp F4   &kp F5   &kp F6
-&kp F11            &kp F12            &kp LS(LA(LC(E)))  &kp LG(D)          &kp LA(LC(LS(T)))  &kp LG(L)            &trans  &kp N4  &kp N5  &kp N6  &kp F7   &kp F8   &kp F9
-&kp LS(LA(LC(U)))  &kp LS(LA(LC(I)))  &kp LS(LA(LC(O)))  &kp LS(LA(LC(P)))  &kp LA(LS(LC(A)))  &kp LA(LC(LS(S)))    &trans  &kp N1  &kp N2  &kp N3  &kp F10  &kp F11  &kp F12
-&trans             &kp LA(LC(LS(D)))  &kp LS(LA(LC(F)))  &kp LA(LS(LC(G)))  &kp LA(LC(LS(H)))  &kp LS(LA(LC(J)))    &trans  &trans  &trans  &kp N0  &kp DOT  &trans
+&kp F1   &kp F2   &kp F3   &trans     &trans     &trans       &trans  &trans  &trans  &trans  &kp F1   &kp F2   &kp F3
+&kp F4   &kp F5   &kp F6   &kp LG(E)  &kp LG(R)  &trans       &trans  &kp N7  &kp N8  &kp N9  &kp F4   &kp F5   &kp F6
+&kp F7   &kp F8   &kp F9   &kp LG(D)  &trans     &kp LG(L)    &trans  &kp N4  &kp N5  &kp N6  &kp F7   &kp F8   &kp F9
+&kp F10  &kp F11  &kp F12  &trans     &trans     &trans       &trans  &kp N1  &kp N2  &kp N3  &kp F10  &kp F11  &kp F12
+&trans   &trans   &trans   &trans     &trans     &trans       &trans  &trans  &trans  &kp N0  &kp DOT  &trans
             >;
         };
 
